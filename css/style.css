@@ -1,0 +1,1630 @@
+/**Global css Start**/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    color: #0056b3;
+    text-decoration: none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+
+button:focus, .form-control:focus, .btn:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.destopmodehide{
+    display: none;
+}
+
+/**Global css End**/
+
+
+
+/**Header css Start**/
+
+span.moble-menus-models {
+    color: white;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-size: 21px;
+}
+
+.logo img {
+    width: 45%;
+}
+
+.header-menu{
+    float: right;
+}
+
+.header-menu ul li {
+    float: left;
+    position: static;
+}
+
+.header-menu ul li a {
+    color: #fff;
+    padding: 30px 25px;
+    display: block;
+    margin: auto 0px;
+    font-weight: 100;
+    transition-duration: 0.2s;
+    text-transform: uppercase;
+}
+
+header.sticky-header.stick .header-menu ul li a {
+    color: #000;
+}
+
+.header-menu ul li a:hover{
+    color: #f8b814;
+}
+
+.header-menu ul li ul {
+    display: none;
+    position: absolute;
+    width: 237px;
+    z-index: 999;
+    background: #009688;
+}
+
+.header-menu ul li ul li a{
+    padding: 8px 10px;
+}
+
+.header-menu ul li ul li a:hover {
+    background-color: #2196f3;
+}
+
+.header-menu ul li:hover > ul{
+    display: block;
+}
+
+.header-menu ul li:hover > .mega-menus{
+    display: block;
+}
+
+ul.dropdown-menus {
+    left: 100%;
+    top: 0;
+}
+
+.header-menu ul li span.fa-chevron-down {
+    font-size: 12px;
+    margin: 5px;
+    padding: 2px;
+    color: #e5e5e5;
+}
+
+.header-menu ul li span.fa-angle-right {
+    padding: 3px 10px;
+    color: #e5e5e5;
+    float: right;
+}
+
+ul.dropdown-submenus li a {
+    padding: 5px 0px 5px 10px;
+}
+
+.header-menu ul li ul li {
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.header-menu ul li ul li:last-child{
+    border-bottom: none;
+}
+
+.logo a {
+    display: block;
+    margin: 14px 0px;
+}
+
+a.loginBtn {
+    padding: 7px 30px!important;
+    border: 2px solid #f8b814;
+    font-weight: bold!important;
+    color: #f8b814!important;
+    margin: 20px 0px!important;
+    text-transform: capitalize!important;
+    border-radius: 3px;
+}
+
+a.loginBtn:hover{
+    background-color: #f8b814;
+    color: #fff!important;
+}
+
+a.registerBtn {
+    padding: 7px 30px!important;
+    border: 2px solid #f8b814;
+    font-weight: bold!important;
+    color: #fff!important;
+    margin: 20px 20px!important;
+    text-transform: capitalize!important;
+    border-radius: 3px;
+    background-color: #f8b814;
+}
+
+a.registerBtn:hover{
+    background-color: transparent;
+    color: #f8b814!important;
+}
+
+/**Header css End**/
+
+.container-fluid{
+    padding: 0px 80px;
+}
+
+.slider_part {
+    padding: 100px 0px;
+}
+
+img.aboslPlanImg {
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 20%;
+    width: 60%;
+}
+
+.visaCheck{
+    margin-top: 30px;
+}
+
+.visaForm{
+    padding: 30px;
+    border-radius: 10px;
+    width: 91%;
+    box-shadow: 00px 0px 20px 20px #fafafa;
+    display: block;
+    margin: 30px 0 15px;
+}
+
+a.checkReq {
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid #FDB913;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 19px;
+    color: #FDB913;
+    font-weight: bold;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    transition-duration: 0.2s;
+}
+
+a.checkReq:hover{
+    background-color: #FDB913;
+    color: #fff;
+}
+
+.visaCheck h1{
+    font-weight: bold;
+    font-size: 47px;
+    color: #18508D;
+    margin: 0;
+}
+
+.visaCheck p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #797979;
+}
+
+.visaCheck label{
+    font-size: 19px;
+    font-weight: bold;
+    color: #18508D;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.visaCheck select.form-control{
+    font-size: 13px;
+    color: #ccc;
+    margin: 5px 0px 15px;
+}
+
+.visaCheck select option{
+
+}
+
+a.bookCons {
+    display: block;
+}
+
+a.bookCons img {
+    width: 35%;
+    margin-left: -23px;
+}
+
+.sliderImg{
+
+}
+
+img.menuBg {
+    position: absolute;
+    top: 0%;
+    border: none!important;
+    box-shadow: none!important;
+    width: 60%!important;
+    left: 40%;
+}
+
+.sliderImg img{
+    width: 90%;
+    display: block;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+.visaService{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 100px 0px;
+}
+
+a.serviceGrid {
+    border: 2px solid aliceblue;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #144e8c;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+a.serviceGrid:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+a.serviceGrid.firstBlood {
+    background-color: #144e8c!important;
+    color: #fff!important;
+}
+
+a.serviceGrid.firstBlood img{
+    width: 44%;
+}
+
+a.serviceGrid img {
+    width: 50%;
+    display: block;
+    margin: 0px auto 18px;
+}
+
+a.serviceGrid p {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+a.serviceGrid i {
+    float: right;
+    display: block;
+    font-size: 30px;
+}
+
+.whoAre .row {
+    box-shadow: -6px 2px 20px #f0f0f0;
+}
+
+.chooseSer {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-top: 2px solid #144e8c;
+}
+
+.chooseSer h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #144e8c;
+}
+
+.chooseSer h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+    color: #7a7a7a;
+}
+
+.chooseSer p{
+    font-size: 14px;
+    color: #666;
+}
+
+a.readMoreBtn {
+    background-color: #fdb913;
+    padding: 7px 25px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+a.readMoreBtn:hover{
+    background-color: #144e8c;
+}
+
+.chooseSer img {
+    width: 10%;
+    display: block;
+    margin-top: -10px;
+    display: block;
+}
+
+img.chooseWimg {
+    width: 80%;
+    margin: 0;
+    display: block;
+}
+
+.chooseSer.whoareChoose {
+    border: none;
+}
+
+.chooseSer.whoareChoose h2{
+    color: #2a4e8c;
+}
+
+.chooseSer.whoareChoose p{
+    color: #898989;
+}
+
+img.chooseImg {
+    width: 85%;
+    display: block;
+    margin: -35px auto;
+}
+
+.elifibility {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px 0px;
+}
+
+img.manImg {
+    display: block;
+    width: 48%;
+    margin: -86px auto 0px;
+}
+
+.elifibilityBox {
+    border: 1px solid #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin: 50px 0px;
+}
+
+.elifibilityBox h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.elifibilityBox select.form-control{
+    margin: 25px 0px;
+    padding: 12px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.elifibilityBox p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.elifibilityBox ul.radioList{
+    list-style-type: none;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.elifibilityBox ul.radioList li{
+    display: inline-block;
+    margin-right: 80px;
+    color: #fff;
+}
+
+.elifibilityBox ul.radioList li input{
+    margin-right: 5px;
+}
+
+.elifibilityBox .row{
+    text-align: center;
+}
+
+a.backBtn {
+    border: 2px solid #FDB913;
+    padding: 7px 40px;
+    border-radius: 5px;
+    color: #FDB913;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+}
+
+a.backBtn:hover{
+    background-color: #FDB913;
+    color: #fff;
+}
+
+a.nextBtn {
+    border: 2px solid #FDB913;
+    padding: 7px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+    background-color: #FDB913;
+}
+
+a.nextBtn:hover{
+    background-color: transparent;
+    color: #FDB913;
+}
+
+.chooseSer.agencyFirst {
+    box-shadow: -1px 3px 10px #ccc;
+    margin-top: -313px;
+}
+
+.chooseSer.agencyFirst h5{
+    text-transform: capitalize;
+    color: #f8b814;
+}
+
+.chooseSer.agencyFirst h2{
+    text-transform: capitalize;
+    color: #18508d;
+}
+
+.newsLetter {
+    background-color: #18508d;
+    padding: 40px 55px;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+.newsLetter h3{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.newsLetter .form-control{
+    height: auto;
+    font-size: 14px;
+    color: #e4e4e4;
+    border-radius: 5px!important;
+}
+
+.newsLetter button.btn.btn-outline-secondary{
+    background-color: #fdb913;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.newsLetter button.btn.btn-outline-secondary:hover{
+    background-color: transparent;
+    color: #fdb913;
+}
+
+.howitWorks {
+    margin: 100px 0px;
+}
+
+.workPart {
+    padding: 50px 25px 70px;
+}
+
+.workPart h5{
+    color: #fdb913;
+    letter-spacing: 1px;
+}
+
+.workPart h2{
+    color: #fff;
+    font-size: 46px;
+    line-height: 55px;
+    margin: 15px 0px 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.workPart img{
+    width: 100%;
+}
+
+.workList{
+    padding: 40px;
+}
+
+.workList img{
+    display: block;
+    width: 30%;
+}
+
+.workList a{
+    display: block;
+    padding: 6px 0px;
+    color: #f8b814;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.workList p{
+    color: #18508d;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.innovationPart h2 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #18508d;
+}
+
+.media.innoList{
+
+}
+
+.media.innoList img{
+    width: 30%;
+}
+
+.media.innoList a{
+    display: block;
+    font-size: 25px;
+    line-height: 30px;
+    width: 70%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 50px 0px 60px;
+    color: #18508d;
+}
+
+.media.innoList p{
+    margin: 0;
+    padding-bottom: 15px;
+    color: #18508d;
+    border-bottom: 1px solid #18508d;
+    letter-spacing: 1px;
+}
+
+.media.innoList p i{
+    color: #fdb913;
+}
+
+.card.innoGrid {
+    background-color: #18508d;
+}
+
+.card.innoGrid a{
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.card.innoGrid p{
+    margin: 0;
+    float: right;
+    color: #f8b814;
+    letter-spacing: 1px;
+}
+
+.card.innoGrid img {
+    width: 100%;
+    height: 370px;
+}
+
+.subdCribers {
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.subOverlay {
+    background-color: #174e8bd9;
+    padding: 80px 0px;
+}
+
+.subOverlay h1{
+    font-weight: bold;
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.subOverlay p{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.subOverlay .form-control{
+    height: auto;
+    padding: 10px 20px;
+}
+
+button.subMitBtn {
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    background-color: #f8b814;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.subOverlay form {
+    padding: 0px 120px;
+    margin-top: 50px;
+}
+
+
+
+.visaFormPart{
+    margin-top: -137px;
+}
+
+.headImage img {
+    width: 100%;
+    display: block;
+}
+
+.col-md-8.bgWhite {
+    background-color: #fff;
+    box-shadow: 0px 20px 20px 0px #f0f0f0;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.col-md-8.bgWhite label{
+    font-size: 21px;
+    font-weight: bold;
+    color: #144e8c;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.col-md-8.bgWhite select.form-control{
+    height: auto;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 0px 0px 15px;
+    letter-spacing: 0px;
+}
+
+.africaApply {
+    background-color: #144E8C;
+    padding: 65px 40px;
+    border-radius: 10px;
+}
+
+.africaApply img{
+    width: 22%;
+    display: block;
+}
+
+.africaApply h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+a.applyBtn {
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    border: 2px solid #f8b814;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    width: 55%;
+    margin: 20px auto 0;
+    padding: 5px 0 8px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    background-color: #f8b814;
+}
+
+a.applyBtn:hover{
+    background-color: transparent;
+}
+
+a.checkReqApply {
+    display: block;
+    border: 2px solid #f8b814;
+    text-align: center;
+    margin-top: 50px;
+    color: #f8b814;
+    font-size: 18px;
+    padding: 6px 0px 4px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+}
+
+a.checkReqApply:hover{
+    background-color: #f8b814;
+    color: #fff;
+}
+
+h4.inlineText {
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    float: left;
+}
+
+a.bookNumber img {
+    width: 20%;
+    margin-left: 47px;
+    margin-top: 15px;
+}
+
+.visasTapPart {
+    margin-top: 70px;
+}
+
+ul.tabList{
+
+}
+
+ul.tabList li{
+    
+}
+
+ul.tabList li a{
+    text-align: center;
+    display: block;
+    color: #144e8c;
+    border: 1px solid;
+    padding: 20px 0px;
+    transition-duration: 0.3s;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+ul.tabList li a:hover{
+    background-color: #144e8c;
+    color: #fff;
+}
+
+a.activeTap {
+    background-color: #144e8c;
+    color: #fff!important;
+}
+
+ul.tabList li a i{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.tabDetails {
+    border: 1px solid #2f6095;
+}
+
+.tabDetails h4{
+    background-color: rgba(215, 215, 215, 0.13);
+    padding: 15px 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #19518e;
+    margin: 0;
+}
+
+.contentVisas{
+    padding: 15px 30px;
+}
+
+.contentVisas p{
+    font-size: 15px;
+    color: #144e8c;
+    line-height: 25px;
+}
+
+.blogPera{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.blogPera p:last-child{
+    margin: 0;
+}
+
+
+
+
+.card-header .title {
+    font-size: 16px;
+    color: #144e8c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.card-header .accicon {
+  float: right;
+  font-size: 20px;  
+  width: 1.2em;
+}
+.card-header{
+  cursor: pointer;
+  padding: 25px;
+  border-bottom: none;
+  background-color: #fff;
+}
+div#accordionExample {
+    box-shadow: 0px 0px 15px #ebebeb;
+}
+.card{
+  border: 1px solid #ddd;
+}
+.card-body{
+  border: none;
+      padding-top: 0;
+    padding-left: 40px;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+
+
+
+
+.headImage {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlayContact {
+    padding: 85px 0px;
+    text-align: center;
+    background-color: #174e8bcc;
+}
+
+.overlayContact h3{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.formInfo{
+    margin: 50px 0px;
+}
+
+.contactInfo{
+    background-color: #174e8b;
+    padding: 70px;
+    color: #fff;
+}
+
+.contactInfo h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.contactInfo p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.contactInfo i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.contactInfo h5{
+    margin: 0;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.contactInfo span{
+    font-size: 15px;
+    display: block;
+    margin: 3px 0px;
+}
+
+.contactInfo a{
+    display: block;
+    color: #fff;
+    margin-top: -2px;
+}
+
+.contactInfo a:hover{
+    color: #f8b814;
+}
+
+ul.contactSocial{
+    text-align: center;
+    margin-top: 25px;
+}
+
+ul.contactSocial li{
+    display: inline-block;
+}
+
+ul.contactSocial li a{
+    padding: 10px!important;
+    text-align: center!important;
+    display: block;
+}
+
+ul.contactSocial li a i{
+    margin: 0;
+}
+
+.contactForm {
+    padding: 40px;
+    background-color: #eee;
+}
+
+.contactForm h3{
+    font-weight: bold;
+    color: #174e8b;
+    letter-spacing: 1px;
+}
+
+.contactForm p{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.contactForm label{
+    font-weight: bold;
+    color: #174e8b;
+    letter-spacing: 1px;
+}
+
+.contactForm input.form-control{
+    margin: 0 0 20px;
+    height: auto;
+    padding: 10px;
+}
+
+button.contactBtn {
+    display: block;
+    width: 100%;
+    margin: 20px 0px 0;
+    background-color: #174e8b;
+    border: none;
+    font-size: 20px;
+    padding: 8px 0px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+}
+
+button.contactBtn:hover{
+    background-color: #f8b814;
+}
+
+.contactFaq {
+    padding: 100px 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+    margin-bottom: -100px
+}
+
+form.feecrgForm {
+    background-color: #144e8c;
+    color: #fff;
+    padding: 35px;
+}
+
+form.feecrgForm label{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+form.feecrgForm select.form-control{
+    height: auto;
+    padding: 10px;
+    border-radius: 0;
+    font-size: 15px;
+    margin: -2px 0 25px 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+form.feecrgForm button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #f8b814;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+form.feecrgForm button:hover{
+    background-color: #000;
+}
+
+.feeTable{
+    padding-right: 25px;
+}
+
+.feeTable img{
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.feeTable p{
+    font-size: 14px;
+    color: #6f6f6f;
+}
+
+
+
+
+
+/* footer css start*/
+
+footer{
+
+}
+
+.mainFooter {
+    background-color: #003874;
+    color: #fff;
+    text-align: center;
+    padding: 75px 0px;
+    border-top: 8px solid #fff;
+}
+
+.aboutComFoot{
+
+}
+
+.aboutComFoot img{
+
+}
+
+.aboutComFoot p{
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 20px 0px 15px;
+}
+
+ul.socialLinks{
+
+}
+
+ul.socialLinks li{
+    display: inline-block;
+}
+
+ul.socialLinks li a{
+    font-size: 25px;
+    display: block;
+    padding: 2px 12px;
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+ul.socialLinks li a:hover{
+    color: #444;
+}
+
+.menuFoot{
+
+}
+
+.menuFoot h5{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f8b814;
+    font-size: 23px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.menuFoot ul{
+
+}
+
+.menuFoot ul li{
+    
+}
+
+.menuFoot ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0px;
+    display: block;
+    transition-duration: 0.2s;
+}
+
+.menuFoot ul li a:hover{
+
+}
+
+.subsFoot {
+    background-color: #064d9a;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.subsFoot h3{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.subsFoot .form-control{
+    height: auto;
+    padding: 13px 20px;
+    margin: 30px 0px;
+    font-size: 13px;
+}
+
+button.submitBtn {
+    background-color: #f8b814;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.bottomFooter {
+    text-align: center;
+    background-color: #064d9a;
+}
+
+.bottomFooter p{
+    color: #fff;
+    padding: 15px 0px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+img.absolUtImg {
+    position: absolute;
+    left: 28%;
+    width: 45%;
+    z-index: 9!important;
+    display: block;
+}
+
+ul.fixedSocial {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 35%;
+    z-index: 99;
+}
+
+ul.fixedSocial li{
+
+}
+
+ul.fixedSocial li a{
+    display: block;
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    margin: 2px 0px;
+    color: #efbc25;
+    border-radius: 5px 0 0 5px;
+    background-color: #000000bf;
+    transition-duration: 0.2s;
+}
+
+ul.fixedSocial li a:hover{
+    background-color: #444;
+}
+
+
+
+/*footer css end*/
+
+header.sticky-header {
+    width: 100%;
+    -webkit-transition: all 2.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+    background-color: #fff;
+}
+
+header.sticky-header.stick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: smoothScroll 1s forwards;
+    z-index: 99;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.top-header.hidesection {
+    display: none;
+}
+
+/**Matis Menu multi larvel css Start**/
+.primarymenu {
+    padding:0px;
+}
+
+.multi-lavel ul li {
+    padding:0px;
+    margin: 10px 0px;
+}
+
+ul.primarymenu li {
+    background-image: linear-gradient(to bottom, #3298c8, #2e8cb8);
+}
+
+ul.primarymenu li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+ul.submenu li{
+    display: none;
+}
+
+ul.submenu li{
+    border: 0px;
+}
+
+ul#submenutwo{
+    padding: 0;
+    background: #e7e7e7;
+}
+
+ul#menu li a {
+    border-bottom:1px solid #d6d4d4;
+    display: inline-block;
+    padding:5px;
+    font-weight: bold;
+    color: #2196f3;
+    width:100%;
+}   
+
+/**Matis Menu multi larvel css End**/
+
+
+/**Side Modals css Start**/
+
+.side-modals.right {
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    top: 0;
+}
+
+.cart_media {
+    padding: 10px 8px;
+}
+
+.side-modals {
+    position: fixed;
+    background-color: #fff;
+    z-index: 9999;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.side-modals.right.open-side {
+    right: 0;
+}
+
+.side-modals.open-side {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.side-modals .overlay {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #000000a3;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.side-modals.open-side .overlay {
+    opacity: 0.8;
+    visibility: visible;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.side-modals.right .cart-inner {
+    height: 100vh;
+    overflow: auto;
+}
+
+.side-modals .cart-inner {
+    background-color: #fff;
+    z-index: 9;
+    position: relative;
+    top: 0;
+}
+
+.side-modals .cart-inner .cart_top {
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/**Side Modals css End**/
+
+
+
+/**For Laptop/ testop Large deviece**/
+@media only screen and (max-width: 1199px) {
+  
+    
+        
+}
+
+
+
+/**For Tablet/small laptops/ Medium deviece**/
+@media only screen and (max-width: 991px) {
+  
+    
+
+}
+
+
+
+/**For Mobile small deviece**/
+@media only screen and (max-width: 767px) {
+    
+    .mobilemodehide{
+        display: none;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    span.moble-menus-models {
+        color: black;
+        margin-top: 7px;
+        font-size: 35px;
+    }
+
+    .subOverlay h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .container-fluid {
+        padding: 0px 10px;
+    }
+
+    .slider_part {
+        padding: 0px;
+    }
+
+    .destopmodehide {
+        display: block;
+    }
+    
+    .header-menu{
+        display: none;
+    }
+
+    .visaCheck h1 {
+        font-size: 40px;
+    }
+
+    .visaForm {
+        width: 100%;
+    }
+
+    a.checkReq{
+        width: 100%;
+    }
+
+    a.bookCons img {
+        width: 50%;
+        display: block;
+    }
+
+    .chooseSer.agencyFirst {
+        box-shadow: -1px 3px 10px #ccc;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    a.backBtn {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    a.nextBtn {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .newsLetter {
+        background-color: #18508d;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 0;
+    }
+
+    .media.innoList a {
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        letter-spacing: 0px;
+        margin: 0 0 15px;
+    }
+
+    .card.innoGrid .card-body {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .subOverlay p {
+        font-size: 16px;
+    }
+
+    .subOverlay form {
+        padding: 0px;
+        margin-top: 25px;
+    }
+
+    .subOverlay .form-control {
+        margin: 0 0 20px;
+    }
+
+    .mainFooter .col-md-2.col-6 {
+        margin: 30px 0px;
+    }
+
+    .mainFooter .col-md-3.col-6 {
+        margin: 30px 0px;
+    }
+
+    .subsFoot .form-control {
+        height: auto;
+        padding: 13px 20px;
+        margin: 15px 0px;
+        font-size: 15px;
+    }
+
+    a.bookNumber img {
+        width: 40%;
+        margin: 0px auto;
+        display: block;
+    }
+
+    h4.inlineText {
+        text-align: center;
+    }
+
+    .visaFormPart {
+        margin-top: 0;
+    }
+
+    .feeTable {
+        padding: 10px;
+    }
+
+    .contactFaq {
+        padding: 0;
+        margin-bottom: -50px;
+    }
+
+}
+
+/**For extra Mobile small deviece**/
+@media only screen and (max-width: 575px) {
+
+    .left-top-header ul li a {
+        font-size: 12px;
+    }
+    
+    .form-info p {
+        margin: 8px 0px;
+        font-size: 12px;
+    }
+
+}
